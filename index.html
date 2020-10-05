@@ -2,21 +2,55 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Joonis Portfolio</title>
-  <meta name="description" content="First Web Portfolio_clone">
-  <meta name="author" content="Joon">
-
-  <link rel="icon" type="image/png" href="imgs/JooniLogo.png">
-
+  <meta name="description" content="First Web Portfolio_clone" />
+  <meta name="author" content="Joon" />
+  <!-- 페이지 메인아이콘 -->
+  <link rel="icon" type="image/png" href="imgs/JooniLogo.png" />
+  <!-- 아이콘소스 -->
   <script src="https://kit.fontawesome.com/b858624f73.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
+  <!-- 폰트소스 -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- deffer는 html css모두 로드 후 main.js 실행하겠다 -->
+  <script src="main.js" defer></script>
 </head>
 
 <body>
+  <!-- Navbar -->
+  <nav id="navbar"></nav>
+  <div class="navbar__logo">
+    <img src="imgs/JooniLogo.png" width="100" height="80"></img>
+    <a href="#">JoonHee</a>
+  </div>
+  <div class="navbar">
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item">Home</li>
+      <li class="navbar__menu__item">About</li>
+      <li class="navbar__menu__item">Skills</li>
+      <li class="navbar__menu__item">Work</li>
+      <li class="navbar__menu__item">Testimonials</li>
+      <li class="navbar__menu__item">Contact</li>
+    </ul>
 
+  </div>
+
+  <!-- About -->
+  <section id="about"></section>
+
+  <!-- Skills -->
+  <section id="skills"></section>
+
+  <!-- Work -->
+  <section id="work"></section>
+
+  <!-- Testimonials -->
+  <section id="testimonials"></section>
+
+  <!-- Contact -->
+  <section id="contact"></section>
 </body>
 
 </html>
