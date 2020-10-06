@@ -186,11 +186,17 @@ p {
 
 .major__icon__web {
   font-size: 50px;
+  margin: auto;
 }
 
 .major__title,
 .major__description {
   color: var(--color-dark-grey);
+}
+
+.major__description {
+  font-size: var(--font-micro);
+  padding: 10px;
 }
 .job {
   display: flex;
