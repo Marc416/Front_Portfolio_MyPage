@@ -337,6 +337,7 @@ p {
   opacity: 0;
   transform: translateY(10px);
   transition: all var(--animation-duration) ease-in;
+  padding: 0 15px;
 }
 
 .project:hover .project__description {
